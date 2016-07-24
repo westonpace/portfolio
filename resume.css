@@ -1,0 +1,85 @@
+/*
+ * red-700: #D32F2F (white)
+ * red-500: #F44336 (white)
+ * red-300: #E57373 (black)
+ * red-A200: #FF5252 (white)
+ * teal-700: #00796B (white)
+ * teal-500: #009688 (white)
+ * teal-300: #4DB6AC (black)
+ */
+
+body, html {
+  margin: 0px;
+  font-family: 'Source Sans Pro';
+}
+
+.topbar {
+  padding: 16px;
+  height: 64px;
+  background: #00796B;
+  color: white;
+  display: flex;
+  align-content: center;
+}
+
+.alert {
+  margin: 32px;
+  padding: 16px;
+  color: white;
+  background: #FF5252;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.card {
+  margin: 32px;
+}
+
+.card-header {
+  height: 24px;
+  background:#009688;
+  color: white;
+  vertical-align: middle;
+  line-height: 24px;
+  padding: 16px;
+  font-size: 24px;
+}
+
+.card-content {
+  padding: 16px;
+  background: #4DB6AC;
+  color: black;
+}
+
+.avatar {
+  float: left;
+  width: 64px;
+  height: 64px;
+  margin-right: 32px;
+}
+
+.topbar span {
+  vertical-align: middle;
+  line-height: 64px;
+  font-size: 32px;
+  font-family: 'Raleway';
+}
+
+.raised-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.raised-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+.raised-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.raised-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.raised-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
